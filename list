@@ -1,0 +1,58 @@
+# AdAway default blocklist
+# Blocking mobile ad providers and some analytics providers
+#
+# Project home page:
+# https://github.com/AdAway/adaway.github.io/
+#
+# Fetch the latest version of this file:
+# https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt
+#
+# License:
+# CC Attribution 3.0 (http://creativecommons.org/licenses/by/3.0/)
+#
+# Contributions by:
+# Kicelo, Dominik Schuermann.
+# Further changes and contributors maintained in the commit history at
+# https://github.com/AdAway/adaway.github.io/commits/master
+#
+# Contribute:
+# Create an issue at https://github.com/AdAway/adaway.github.io/issues
+#
+
+127.0.0.1  localhost
+::1  localhost
+
+# [163.com]
+127.0.0.1 analytics.163.com
+127.0.0.1 crash.163.com
+127.0.0.1 crashlytics.163.com
+127.0.0.1 iad.g.163.com
+127.0.0.1 ||outbrain.com^
+||outbrain.com^
+127.0.0.1 api4.1mobile.com
+
+# [1rx.io]
+127.0.0.1 sync.1rx.io
+127.0.0.1 tag.1rx.io
+
+# [206ads.com]
+127.0.0.1 s.206ads.com
+
+# [247-inc.net]
+127.0.0.1 api.247-inc.net
+127.0.0.1 tie.247-inc.net
+
+127.0.0.1 outbrain.com
+127.0.0.1 www.outbrain.com
+127.0.0.1 log.outbrain.com
+127.0.0.1 odb.outbrain.com
+127.0.0.1 images.outbrain.com
+127.0.0.1 log.outbrain.com
+127.0.0.1 amplify.outbrain.com
+127.0.0.1 amplifypixel.outbrain.com
+127.0.0.1 vra.outbrain.com
+127.0.0.1 widgets.outbrain.com
+127.0.0.1 sync.outbrain.com
+127.0.0.1 tr.outbrain.com
+127.0.0.1 vrp.outbrain.com
+127.0.0.1 vrt.outbrain.com
